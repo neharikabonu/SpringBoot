@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://localhost:8080/students
+description: ""
+url: http://localhost:8080/students/1
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Neharika\",\r
+
+    \    \"age\": 23,\r
+
+    \    \"email\": \"neharikabonu@gmail.com\"\r
+
+    }"
+order: 1000
